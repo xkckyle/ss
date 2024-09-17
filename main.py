@@ -30,8 +30,8 @@ def execute_task(task_name, max_runtime, command):
 # Scheduling and Running Tasks (task_scheduler.py)
 # Define tasks and their max runtimes (in hours) and commands
 tasks = [
-    {"name": "Task1", "max_runtime": 3, "command": r"python task1_script.py"},
-    {"name": "Task2", "max_runtime": 6, "command": r"python task2_script.py"},
+    {"name": "Task1", "max_runtime": 3, "command": r"python test1.py"},
+    # {"name": "Task2", "max_runtime": 6, "command": r"python task2_script.py"},
     # Add more tasks here as needed
 ]
 
